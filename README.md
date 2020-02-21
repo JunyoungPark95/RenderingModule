@@ -24,6 +24,7 @@ Note that : Windows is a known platform where these script files can be differen
 3. Paste it into the folder containing python.exe
 
 <code> In my case, since I use a virtual env (Anaconda3)
+  
 "C:\Users\$USER NAME$\Anaconda3\envs\$YOUR VIRTUAL ENVIRONMENT NAME$" </code>
 
 If this process is skipped, you _SHOULD_ not be possible to import in your Python environments using the Blender module in a Windows environment.
