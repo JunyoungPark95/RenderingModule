@@ -26,7 +26,7 @@ In my case, "C:\Program Files\Blender Foundation\Blender\"
 
 * "C:\Users\$USER NAME$\Anaconda3\envs\$YOUR VIRTUAL ENVIRONMENT NAME$"
 
-If this process is skipped, you SHOULD not be possible to import in your Python environments using the Blender module in a Windows environment.
+If this process is skipped, you _SHOULD_ not be possible to import in your Python environments using the Blender module in a Windows environment.
 For Linux environments, the symbolic links are not properly connected and it leads that blender modules may not be imported.
 
 
