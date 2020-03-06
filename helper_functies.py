@@ -9,7 +9,7 @@ def zero(my_dpi):
     #bpy.ops.object.mode_set(mode='OBJECT')
     bpy.ops.object.select_all(action='DESELECT')
     cam = bpy.data.objects['Camera']
-    cam.location = [7.4811, -6.5076, 5.3437] # Default, maar dan een list
+    cam.location = [7.4811, -6.5076, 5.3437] # Default
 
     #looking through all objects
     for obj in bpy.data.objects:
@@ -28,11 +28,9 @@ def zero(my_dpi):
 def point_at(obj, target, roll=0):
     """
     Rotate obj to look at target
-
     :arg obj: the object to be rotated. Usually the camera
     :arg target: the location (3-tuple or Vector) to be looked at
     :arg roll: The angle of rotation about the axis from obj to target in radians. 
-
     Based on: https://blender.stackexchange.com/a/5220/12947 (ideasman42)      
     """
     if not isinstance(target, mathutils.Vector):
@@ -43,7 +41,7 @@ def point_at(obj, target, roll=0):
 
     quat = direction.to_track_quat('-Z', 'Y')
 
-    # /usr/share/blender/scripts/addons/add_advanced_objects_menu/arrange_on_curve.py
+    # /blender/scripts/addons/add_advanced_objects_menu/arrange_on_curve.py
     quat = quat.to_matrix().to_4x4()
     rollMatrix = mathutils.Matrix.Rotation(roll, 4, 'Z')
 
