@@ -35,6 +35,6 @@ Just run 'build_script.sh' your own directory
 
 <code> chmod u+x build_bpy.sh </code>
 
-<code> ./build_bpy.sh v2.80 python3.7 --precompiled-libs </code>
+<code> ./build_script.sh v2.80 python3.7 --precompiled-libs </code>
 
 
