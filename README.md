@@ -34,8 +34,11 @@ If this process is skipped, you _SHOULD_ not be possible to import in your Pytho
 Just run 'build_script.sh' on your directory
 
 change execution permissions as:
+
 <code> chmod u+x build_script.sh </code>
+
 build Blender using the script the following way:
+
 <code> ./build_script.sh v2.80 python3.7 --precompiled-libs </code>
 
 
