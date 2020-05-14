@@ -1,7 +1,7 @@
 # RenderingModule
 This repo contains a blender based assembly manual rendering as python module.
 
-### Requirements
+### Requirements (For windows)
 
 * python3.x (Recommended 3.6)
 * blender 2.79
@@ -28,7 +28,8 @@ Note that : Windows is a known platform where these script files can be differen
 <code> "C:\Users\$USER NAME$\Anaconda3\envs\$YOUR VIRTUAL ENVIRONMENT NAME$" </code>
 
 If this process is skipped, you _SHOULD_ not be possible to import in your Python environments using the Blender module in a Windows environment.
-For Linux environments, the symbolic links are not properly connected and it leads that blender modules may not be imported.
 
+### Requirements (For linux)
 
+AA
 
