@@ -31,7 +31,7 @@ If this process is skipped, you _SHOULD_ not be possible to import in your Pytho
 
 ### Requirements (For linux)
 
-Just run 'build_script.sh' your own directory
+Just run 'build_script.sh' on your directory
 
 <code> chmod u+x build_script.sh </code>
 
